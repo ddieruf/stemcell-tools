@@ -4,7 +4,7 @@ $tmpFolder = "tmp"
 $tmpPath = "c:\"+$tmpFolder
 $psModulesFile = "PSWindowsUpdate.zip"
 $vmwFile = "vmware-tools.exe"
-$root = false
+$reboot = $FALSE
 
 New-Item -Path "C:\" -Name "tmp" -ItemType "directory" | Set-Location
 
