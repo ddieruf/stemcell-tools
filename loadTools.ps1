@@ -21,7 +21,7 @@ $process.WaitForExit()
 
 #INSTALL WINDOWS UPDATES supress reboot
 Get-WUInstall -AcceptAll -IgnoreReboot
-$reboot = (Get-WURebootStatus -Silent)
+#$reboot = (Get-WURebootStatus -Silent)
 
 #REBOOT
-if ($reboot) {Restart-Computer}
+#if ($reboot) {Restart-Computer}
