@@ -13,6 +13,12 @@
                 <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
                 <NetworkLocation>Work</NetworkLocation>
             </OOBE>
+            <UserAccounts>
+                <AdministratorPassword>
+                    <Value>123asd#</Value>
+                    <PlainText>true</PlainText>
+                </AdministratorPassword>
+            </UserAccounts>
         </component>
     </settings>
     <settings pass="auditUser">
