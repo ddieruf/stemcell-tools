@@ -14,7 +14,7 @@
             </OOBE>
             <UserAccounts>
                 <AdministratorPassword>
-                    <Value>123asd#</Value>
+                    <Value>{{ADMINISTRATOR_PASSWORD}}</Value>
                     <PlainText>true</PlainText>
                 </AdministratorPassword>
             </UserAccounts>
