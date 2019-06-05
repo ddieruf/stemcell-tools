@@ -12,6 +12,12 @@
                 <HideEULAPage>true</HideEULAPage>
                 <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
             </OOBE>
+            <UserAccounts>
+                <AdministratorPassword>
+                    <Value>{{ADMINISTRATOR_PASSWORD}}</Value>
+                    <PlainText>true</PlainText>
+                </AdministratorPassword>
+            </UserAccounts>
         </component>
     </settings>
     <settings pass="auditUser">
